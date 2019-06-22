@@ -1,0 +1,193 @@
+body{
+  font-family: sans-serif;
+  margin: 0;
+}
+
+header{
+  background: url("https://images.pexels.com/photos/268261/pexels-photo-268261.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-size: cover;
+  height: 400px;
+  text-align: center;
+}
+
+.nav-bar{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background: #333;
+}
+
+.nav-el {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+.nav-el:hover {
+  background-color: #ff9999;
+  color: white;
+  cursor: pointer;
+}
+
+.bread{
+  color: white;
+}
+
+ul.breadcrumb {
+  padding: 20px 20px;
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  margin: 0;
+  color: white;
+}
+
+/* Display list items side by side */
+ul.breadcrumb li {
+  display: inline;
+  font-size: 18px;
+  color: #ff9999;
+}
+
+/* Add a slash symbol (/) before/behind each list item */
+ul.breadcrumb li+li:before {
+  padding: 8px;
+  content: "/\00a0";
+}
+
+/* Add a color on mouse-over */
+ul.breadcrumb li a:hover {
+  color: #ff9999;
+  text-decoration: underline;
+}
+
+
+
+.text-block{
+  color: white;
+  padding: 20px;
+  font-family: helvetica;
+  width: 550px;
+  height: 250px;
+  display:inline-block; 
+}
+
+.heading{
+  font-size: 5em;
+  font-weight: bold;
+  padding: 10px;
+}
+
+
+main{
+  text-align: center;
+  padding: 20px;
+}
+
+.usr-title{
+  font-size: 5em;
+  font-weight: bold;
+}
+
+#usr-container{
+  text-align: center;
+}
+
+#user:hover{
+  color: #ff9999;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+footer{
+  background: gray;
+  height: 75px;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+#name{
+  color: white;
+  padding: 10px;
+  font-family: helvetica;
+  width: 100%;
+  height: 250px;
+  margin-top: 80px;
+  display:inline-block;
+  font-size: 5em;
+  font-weight: bold;
+}
+
+.profile{
+  padding: 0px;
+  display: flex;
+  margin: 0;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+}
+
+aside {
+  display: block;
+  position: relative;
+  margin: 40px 0;
+  border-left: 34px solid #ff9999;
+  padding-left: 10px;
+}
+
+aside h3 {
+  font: bold 12px Sans-Serif;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  background: #ff9999;
+  color: white;
+  padding: 5px 10px;
+  margin: 0 0 10px 0;
+  line-height: 24px;
+  background: none;
+  
+  position: absolute;
+  top: 0;
+  left:0;
+
+  /* Rotate from top left corner (not default) */
+  transform-origin: 0 0;
+  transform: rotate(90deg);
+}
+
+#about{
+  width: 100%;
+}
+
+#posts{
+  text-align: left;
+}
+
+#post:hover {
+  color: #ff9999;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+#post-title{
+  font-size: 4em;
+  font-weight: bold;
+  color: white;
+  padding: 20px;
+  display:inline-block; 
+  vertical-align: middle;
+}
+
+.nav-a{
+  color: white;
+}
+
+
